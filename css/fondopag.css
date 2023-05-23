@@ -1,0 +1,38 @@
+/* Estilos para el fondo de imagen */
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+header::before {
+  content: "";
+  background-image: url("img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute; /* aca va relative para que no se mueva, pero se desaparece el fondo */
+  overflow: visible;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+.contenedor-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+

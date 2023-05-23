@@ -1,0 +1,13 @@
+/* Estilos para el elemento brillante */
+.brillo-elemento {
+  /* Estilos normales del elemento */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.brillo-elemento:hover {
+  /* Estilos cuando el cursor pasa por encima */
+  filter: brightness(120%);
+}

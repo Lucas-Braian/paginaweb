@@ -1,0 +1,11 @@
+/* styles.css */
+footer {
+  /* Estilos para el pie de página */
+  background-color: rgba(0, 0, 255, 0.942);
+  padding: 0.1px;
+  text-align: center;
+  color: white;
+}
+.white-icon {
+  color: white;
+}
